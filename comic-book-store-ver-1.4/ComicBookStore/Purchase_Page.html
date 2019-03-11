@@ -1,0 +1,27 @@
+<html>
+	% include('shared/header.html')
+	% include('shared/Navbar.html')
+	
+	<body class=" brown darken-4">
+	    <div class="row red accent-4">
+			<div class="col s12 center">Purchase comix</div>
+			% for comic in comic_list:
+					  <div class="row">
+			<div class="col s12 m6">
+			  <div class="card brown darken-4">
+				<div class="card-content white-text">
+				  <span class="card-title"> {{comic.image}} </span>
+				  <p> {{comic.name}}: {{comic.amount}} copies available </p>
+				</div>
+				<div class="card-action">
+				  <a href="#">Purchase</a>
+				  <a href="#">Restock</a>
+				</div>
+			  </div>
+			</div>
+		  </div
+		</div>
+	</body>
+	%end
+	</div>
+</html>
