@@ -1,2 +1,0 @@
-# comic-book-store
-practice
