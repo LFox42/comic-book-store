@@ -28,7 +28,7 @@ comic_test = [
     Comic("Fire Hazard", "image", 8),
     Comic("J-Division", "image", 12),
     Comic("Hyrdo Girl", "image",3),
-    Comic("No-scope", "image",5)
+    Comic("No-Scope", "image",5)
     ]
 
 #Pages
