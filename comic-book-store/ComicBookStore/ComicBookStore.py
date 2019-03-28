@@ -25,10 +25,10 @@ class Comic:
 
 #Test Data
 comic_test = [
-    Comic("Fire Hazard", "Fire_Hazard.png", 8),
+    Comic("Fire Hazard", "<Fire_Hazard.PNG>", 8),
     Comic("J-Division", "image", 12),
     Comic("Hyrdo Girl", "image",3),
-    Comic("No-Scope", "image",5)
+    Comic("No-Scope", "<No-Scope.JPG>",5)
     ]
 
 #Pages
